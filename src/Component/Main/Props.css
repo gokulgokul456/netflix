@@ -1,0 +1,20 @@
+.cart{
+    width: 15%;
+    height: 100%;
+    /* background-color: red; */
+    position: relative;
+
+}
+.cartimg img{
+    width: 115%;
+    height: 100%;
+    border-radius: 10px;
+}
+.cartcont{
+    position: absolute;
+    bottom: 1px;
+    right: 120px;
+    font-size: 55px;
+    -webkit-text-fill-color:black;
+    -webkit-text-stroke: 1px rgb(208,210,214);
+}

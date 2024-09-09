@@ -1,0 +1,19 @@
+.ma{
+    width: 75%;
+    height: 60%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: grey;
+}
+.ma1{
+    width: 100%;
+    height: 40px;
+    /* background-color: greenyellow; */
+    display: flex;
+    align-items: center;
+}
+.ma1 p{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
