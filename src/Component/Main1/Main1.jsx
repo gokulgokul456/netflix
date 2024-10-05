@@ -9,8 +9,7 @@ const Main1 = () => {
         <div className='ma1'>
            <p>Frequently Asked Questions</p>
         </div>
-        <div>
-            <Main2/>
+        <div className='u'>
             <Main2/>
         </div>
 

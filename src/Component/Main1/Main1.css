@@ -1,9 +1,17 @@
 .ma{
     width: 75%;
-    height: 60%;
+    height: 130%;
     margin: 0 auto;
     margin-bottom: 20px;
-    background-color: grey;
+    /* background-color: grey; */
+}
+.u{
+    height: 90%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: relative;
 }
 .ma1{
     width: 100%;

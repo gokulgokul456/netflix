@@ -1,0 +1,12 @@
+.footer3{
+    width: 20%;
+    height: 150px;
+    /* background-color: greenyellow; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: rgb(179,179,179);
+}
+.footer3 a{
+    color: rgb(179,179,179);
+}

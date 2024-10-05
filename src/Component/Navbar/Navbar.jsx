@@ -3,7 +3,7 @@ import './Navbar.css'
 import logo from '../../Assets/Images/netflix.png'
 import { HiMiniLanguage } from "react-icons/hi2";
 import { FaChevronRight } from "react-icons/fa";
-
+import {Link} from 'react-router-dom'
 
 
 const Navbar = () => {
@@ -21,7 +21,7 @@ const Navbar = () => {
             <option value="">Español</option>
       </select>
     </span>
-     <button>Sign In</button>
+    <Link to="/Login"><button>Sign In</button></Link>
     </div>
     </div>
     <div className='main'>

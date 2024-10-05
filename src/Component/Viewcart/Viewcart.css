@@ -1,0 +1,64 @@
+.titles{
+    width: 100%;
+    height: 90px;
+    background-color: rgb(30,39,45);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.cartimg{
+    width: 90%;
+    height: 80%;
+    /* background-color: red; */
+    margin: 0 auto;
+    object-fit: cover;
+    margin-bottom: 30px;
+}
+.cartimg img{
+    width: 100%;
+    height: 100%;
+}
+.cart{
+    width: 90%;
+    height: 70%;
+    margin: 0 auto;
+    /* background-color: white; */
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.director{
+    width: 100%;
+    height: 50px;
+    /* background-color: grey; */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+.cast{
+    width: 100%;
+    height: 50px;
+    /* background-color: grey; */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+
+.plot{
+    width: 100%;
+    height: 65%;
+    /* background-color: grey; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 10px;
+
+}

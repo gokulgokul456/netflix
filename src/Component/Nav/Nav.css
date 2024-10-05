@@ -1,0 +1,56 @@
+.Nav1{
+    width: 100%;
+    height: 60px;
+    /* background-color: grey; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.Na2{
+    width: 50%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    /* background-color: red; */
+}
+.Na2 p{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+.Na2 a:hover{
+    color: red;
+}
+.Na2 a{
+    text-decoration: none;
+}
+.Na2 img{
+    width: 20%;
+    height: 60px;
+}
+.Na3{
+    width: 50%;
+    height: 60px;
+    /* background-color: bisque; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+}
+.Na3 span{
+    font-size: 25px;
+    color: white;
+}
+.Na3 span :hover{
+    color: red;
+}
+.Na3 button{
+    width: 20%;
+    height: 35px;
+    background-color: red;
+    color: white;
+    border: none;
+}
