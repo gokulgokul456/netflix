@@ -24,7 +24,7 @@ const Viewcart = () => {
       <h2>{data.genre}</h2>
       <h2>U/A 18+</h2>
     </div>
-    <div className='cartimg'>
+    <div className='cartimgg'>
       <img src={data.imageUrl} alt="" />
     </div>
     <div className='cart'>

@@ -9,6 +9,7 @@
     width: 115%;
     height: 100%;
     border-radius: 10px;
+    background-color: red;
 }
 .cartcont{
     position: absolute;
