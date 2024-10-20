@@ -99,3 +99,71 @@
   border-radius: 5px;
   border: none;
 }
+
+@media (max-width: 768px) {
+  .swip {
+      width: 95%;
+      height: auto; 
+      margin-bottom: 15px; 
+  }
+  
+  .swip h1 {
+      font-size: 18px; 
+      margin-bottom: 20px;
+  }
+  
+  .swip img {
+      width: 90%; 
+      height: 200px;
+      /* background-color: red; */
+  }
+  
+  .swip .swiper {
+    width: 430%;
+      height: 100%;
+  }
+  
+  .swip .swiper-slide {
+      font-size: 16px; 
+      padding-left: 10px; 
+      margin-top: 2px;
+      flex-direction: column; 
+      align-items: center; 
+  }
+  .swiper-button-prev{
+    display: none;
+  }
+  .swiper-button-next{
+    display: none;
+  }
+  
+  .swip .swiper-slide img {
+      width: 90%; 
+      display: flex;
+      gap: 20px;
+      height: 435PX;
+  }
+  
+  .swip .swiper-button-prev,
+  .swip .swiper-button-next {
+      width: 30px; 
+      height: 30px; 
+      font-size: 12px; 
+  }
+  
+  .cartrimg {
+      flex-direction: column; /* Stack items in column for mobile */
+  }
+  
+  .top {
+      width: 85%; 
+      height: auto; 
+      gap: 10px;
+      background: none;
+  }
+  
+  .top button {
+      width: 70px; /* Adjust button width */
+      height: 25px; /* Adjust button height */
+  }
+}

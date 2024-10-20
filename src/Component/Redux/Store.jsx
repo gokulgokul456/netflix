@@ -1,10 +1,5 @@
 import { createSlice,configureStore } from "@reduxjs/toolkit"
 
-
-
-
-
-
 let myslice=createSlice({
     name:"series",
     initialState:{

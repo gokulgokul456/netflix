@@ -33,4 +33,29 @@
     justify-content: end;
 }
 
+@media (max-width: 768px) {
+    .car1 {
+        width: 90%; /* Increase width for better visibility on mobile */
+        height: auto; /* Allow height to adjust based on content */
+        padding: 10px; /* Add padding for spacing */
+    }
+
+    .car2 {
+        height: auto; /* Allow height to adjust based on content */
+        margin-top: 5px; /* Reduce margin for better spacing */
+        padding: 10px; /* Adjust padding */
+    }
+
+    .carimg {
+        height: 80px; /* Adjust image height for mobile */
+        align-items: center; /* Center align items vertically */
+        justify-content: center; /* Center align items horizontally */
+    }
+    
+    .car2 p {
+        font-size: 16px; /* Slightly smaller font size for better readability */
+    }
+}
+
+
 

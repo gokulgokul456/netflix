@@ -91,4 +91,35 @@
     size: 20px;
     border-radius: 10px;
   }
+
+  @media (max-width: 768px) {
+    .swipe123 {
+        height: 60%; /* Adjust height for mobile */
+    }
+
+    .rate h1 {
+        font-size: 20px; /* Decrease font size */
+    }
+
+    .rate p {
+        font-size: 16px; /* Decrease font size */
+    }
+
+    .rate button {
+        width: 50%; /* Make the button wider for easier tapping */
+        height: 40px; /* Adjust button height */
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        width: 15px; /* Decrease width for mobile */
+        height: 80px; /* Decrease height for mobile */
+        font-size: 8px; /* Decrease font size */
+    }
+
+    .swipe123 .swiper-slide {
+        font-size: 16px; /* Adjust font size for slide text */
+    }
+}
+
   

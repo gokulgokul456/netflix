@@ -62,3 +62,32 @@
     gap: 10px;
 
 }
+
+@media (max-width: 768px) {
+    .titles {
+        width: auto;
+        height: 70px;
+        font-size:7px; 
+        gap: 15px; 
+    }
+    .cartimgg {
+        width: 100%; /* Full width on mobile */
+        height: auto; /* Maintain aspect ratio */
+        margin-bottom: 15px; /* Adjust spacing */
+    }
+    .cart {
+        width: 95%; /* Slightly wider */
+        height: auto; /* Allow dynamic height */
+        margin-bottom: 15px; /* Adjust spacing */
+    }
+    .director, .cast {
+        height: auto; /* Allow dynamic height */
+        flex-direction: column; /* Stack items vertically */
+        align-items: flex-start; /* Align items to the start */
+    }
+    .plot {
+        height: auto; /* Allow dynamic height */
+        padding: 10px; /* Add padding for better readability */
+    }
+}
+

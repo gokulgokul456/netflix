@@ -10,3 +10,16 @@
 .footer3 a{
     color: rgb(179,179,179);
 }
+
+@media (max-width: 768px) {
+    .footer3 {
+        width: 100%; /* Use full width on mobile */
+        height: auto; /* Allow height to adjust based on content */
+        gap: 10px; /* Reduce gap for better spacing on smaller screens */
+        color: rgb(179, 179, 179);
+    }
+    
+    .footer3 a {
+        font-size: 14px; /* Increase link font size for readability */
+    }
+}

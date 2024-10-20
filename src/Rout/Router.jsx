@@ -7,14 +7,6 @@ import Movie from '../Pages/Movie/Movie'
 import Series from '../Pages/Series/Series'
 import Viewcart from '../Component/Viewcart/Viewcart'
 
-
-
-
-
- 
-
-
-
 const Router = () => {
   return (
     <>

@@ -25,3 +25,29 @@
     font-weight: 600;
     color: white;
 }
+
+
+@media (max-width: 768px) {
+    .ma {
+        width: 90%; /* Increase width for better visibility */
+        height: auto; /* Allow height to adjust based on content */
+        margin-bottom: 15px; /* Adjust bottom margin */
+    }
+
+    .u {
+        height: auto; /* Allow height to adjust based on content */
+        gap: 10px; /* Increase gap for better spacing */
+    }
+
+    .ma1 {
+        height: 50px; /* Adjust height for mobile */
+        padding: 10px; /* Add padding for better touch targets */
+        display: flex;
+        align-items: center; /* Center align content */
+    }
+
+    .ma1 p {
+        font-size: 18px; /* Slightly smaller font size */
+    }
+}
+

@@ -100,7 +100,7 @@
     background-color:rgb(58,55,57);
     color: white;
 }
-.Nav{
+.Navv{
     width: 75%;
     height: 60px;
     margin: 0 auto;
@@ -110,7 +110,45 @@
     justify-content: center;
     justify-content: space-between;
 }
-.Nav img{
+.Navv img{
     width: 13%;
     height: 65px;
+}
+
+@media (max-width: 768px) {
+    .bg {
+        height: 100vh; 
+    }
+    
+    .sign1 {
+        width: 90%; 
+        padding: 20px; 
+    }
+    
+    .sign1 input {
+        height: 40px; 
+    }
+
+    .sign2 {
+        height: auto; 
+    }
+
+    .sign3, .sign4 {
+        font-size: 12px; 
+    }
+
+    .btnn1, .btnn {
+        height: 30px; 
+        font-size: 14px; 
+    }
+
+    .Navv {
+        width: 90%; 
+        height: 50px; 
+    }
+
+    .Navv img {
+        width: 30%; 
+        height: auto; 
+    }
 }

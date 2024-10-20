@@ -10,7 +10,6 @@
     /* background: #fff; */
     padding-left: 20px;
     margin-top: 5px;
-
     /* Center slide text vertically */
     display: flex;
     justify-content: start;
@@ -41,4 +40,21 @@
     size: 20px;
     border-radius: 10px;
   }
+
+  @media (max-width: 768px) { 
+    .swiper-slide { 
+      font-size: 14px; 
+      padding-left: 10px;
+    } 
+  .swiper-slide img { 
+      width: 90px; 
+      height: 150px;
+      margin-top: 95px;
+    } 
+  .swiper-button-prev, .swiper-button-next { 
+      width: 15px; 
+      height: 80px; 
+      font-size: 8px; 
+    } 
+  } 
   

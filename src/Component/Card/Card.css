@@ -28,3 +28,30 @@
     gap: 20px;
     
 }
+
+@media (max-width: 768px) {
+    .card1 {
+        width: 90%; /* Increase width for better visibility */
+        height: auto; /* Allow height to adjust based on content */
+    }
+
+    .card2 {
+        height: 50px; /* Adjust height for mobile */
+        flex-direction: column; /* Stack items vertically */
+        align-items: flex-start; /* Align text to the start */
+        padding: 10px; /* Add padding for better spacing */
+    }
+
+    .card2 p {
+        font-size: 18px; /* Slightly smaller font size */
+    }
+
+    .card3 {
+        height: auto; /* Allow height to adjust based on content */
+        flex-direction: column; /* Stack items vertically for better spacing */
+        align-items: center; /* Center align items */
+        justify-content: center; /* Center items */
+        gap: 10px; /* Reduce gap for smaller screens */
+    }
+}
+

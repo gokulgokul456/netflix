@@ -49,7 +49,7 @@ const Sign = () => {
     <>
     <div className='bg'>
     <div className='blend1'>
-    <div className='Nav'>
+    <div className='Navv'>
     <img src={logo} alt="" />
     </div>
     <div className='sign'>

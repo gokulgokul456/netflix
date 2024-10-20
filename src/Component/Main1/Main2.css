@@ -35,3 +35,25 @@
     justify-content: space-between;
     width: 100%;
 }
+
+@media (max-width: 768px) {
+    .bar {
+        padding: 15px; /* Reduce padding for mobile */
+        font-size: 20px; /* Slightly smaller font size */
+        flex-direction: column; /* Maintain column layout for smaller screens */
+        margin: 10px 0; /* Adjust margins */
+    }
+
+    .opens {
+        height: auto; /* Allow height to adjust based on content */
+        width: 100%; /* Set width to 100% for better fit */
+        top: 0; /* Reset top positioning */
+        border-top: none; /* Optional: remove border for mobile */
+        padding: 10px; /* Add padding for spacing */
+    }
+
+    .bar2 {
+        flex-direction: column; /* Stack items vertically for better mobile layout */
+        align-items: flex-start; /* Align items to start */
+    }
+}

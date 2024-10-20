@@ -56,3 +56,43 @@
     border: none;
     background-color: transparent;
 }
+
+@media (max-width: 768px) {
+    .footer {
+        width: 90%; /* Increase width to take more space */
+        height: auto; /* Allow height to adjust based on content */
+        flex-direction: column; /* Keep column layout */
+        margin-bottom: 15px; /* Adjust bottom margin */
+    }
+    
+    .footer1 {
+        height: auto; /* Allow height to adjust */
+        margin-bottom: 15px; /* Adjust bottom margin */
+    }
+    
+    .footer2 {
+        flex-direction: column; /* Stack items vertically */
+        font-size: 14px; /* Increase font size for better readability */
+        gap: 10px; /* Add space between items */
+    }
+    
+    .footer4 {
+        width: 100%; /* Use full width */
+        height: auto; /* Allow height to adjust */
+        gap: 10px; /* Adjust gap */
+    }
+    
+    .footer4 h5 {
+        font-size: 14px; /* Increase heading size */
+    }
+    
+    .footer4 span {
+        flex-direction: row; /* Ensure span items are row-based */
+        justify-content: space-between; /* Space items evenly */
+    }
+    
+    .footer4 span select {
+        width: 100%; /* Use full width for the select dropdown */
+        height: 35px; /* Keep consistent height */
+    }
+}

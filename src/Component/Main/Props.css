@@ -1,7 +1,7 @@
 .cart{
     width: 15%;
     height: 100%;
-    /* background-color: red;p */
+    /* background-color: red; */
     position: relative;
 
 }
@@ -9,7 +9,7 @@
     width: 115%;
     height: 100%;
     border-radius: 10px;
-    background-color: red;
+    /* background-color: red; */
 }
 .cartcont{
     position: absolute;
@@ -19,3 +19,17 @@
     -webkit-text-fill-color:black;
     -webkit-text-stroke: 1px rgb(208,210,214);
 }
+
+@media (max-width: 768px) {
+    .cart { 
+      width: 25%; 
+       } 
+       .cartcont{
+        position: absolute;
+        bottom: -10px;
+        right: -29px;
+        font-size: 35px;
+        -webkit-text-fill-color:black;
+        -webkit-text-stroke: 1px rgb(208,210,214);
+    }
+  } 
